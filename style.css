@@ -1,0 +1,53 @@
+/* Reset default browser styles */
+body, h1, p, iframe {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set background color to black */
+body {
+    background-color: #1e1e1e;
+    color: #fff; /* Set text color to white */
+}
+
+/* Style the header */
+header {
+    background-color: #292929;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Style the iframe */
+iframe {
+    width: 100%;
+    height: calc(100vh - 60px); /* Subtract header height */
+    border: none;
+}
+
+/* Style the footer */
+footer {
+    background-color: #292929;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Hover effect for links */
+footer a:hover {
+    text-decoration: underline;
+}
